@@ -111,7 +111,7 @@ class LoginPage extends StatelessWidget {
         onPressed: () {
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
-              content: const Text('Que fue pes tilin tilin mujejej'),
+              content: const Text('Que fue tilin, cfma'),
               behavior: SnackBarBehavior.floating,
               backgroundColor: Colors.deepPurpleAccent,
               shape: RoundedRectangleBorder(
