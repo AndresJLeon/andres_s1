@@ -11,10 +11,10 @@ class LoginPage extends StatelessWidget {
         actions: [
           IconButton(
             icon: const Icon(Icons.notifications),
-            onPressed: () => debugPrint('Campana piu pu¿yu'),
+            onPressed: () => debugPrint('Presionaste el incono de mensajes'),
           ),
         ],
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: const Color.fromARGB(255, 199, 53, 124),
         foregroundColor: Colors.white,
       ),
 
